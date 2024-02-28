@@ -324,6 +324,10 @@ ul {
     stroke: white;
 }
 
+.customer-card .inner-box svg path {
+    transition: 0.3s linear;
+}
+
 .max-w-233 {
     max-width: 233px;
 }
