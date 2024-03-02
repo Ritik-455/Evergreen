@@ -106,12 +106,12 @@ ul {
     padding-bottom: 30px;
 }
 
-.mt-28 {
-    margin-top: 28px;
+.mt-22 {
+    margin-top: 22px;
 }
 
-.mt-44 {
-    margin-top: 44px;
+.mt-14 {
+    margin-top: 14px;
 }
 
 .py-35 {
@@ -298,7 +298,7 @@ ul {
     background: #F0F8EC;
     border: 1px solid #DEEDD6;
     border-radius: 10px;
-    padding: 41px 13px 49px 24px;
+    padding: 20px 13px 20px 17px;
     transition: 0.3s linear;
 }
 
@@ -387,7 +387,6 @@ ul {
     width: unset;
 }
 
-
 .container-1440 {
     max-width: 1440px;
     margin-left: auto;
@@ -462,7 +461,7 @@ ul {
     max-width: 424px;
     border-radius: 10px;
     border: 1px solid #0000001A;
-    padding: 16px 0px 16px 12px;
+    padding: 16px 4px 16px 12px;
 }
 
 .form-box:hover {
@@ -505,6 +504,7 @@ ul {
 
 .form-btn {
     max-width: 425px;
+    width: 100%;
     padding: 15px 27px;
     border-radius: 25px;
     background-color: var(--color-green);
@@ -568,8 +568,8 @@ ul {
     right: 3%;
 }
 
-.h-85 {
-    height: 85vh;
+.h-90 {
+    height: 90vh;
     object-fit: cover;
 }
 
@@ -606,9 +606,31 @@ ul {
     width: 100%;
 }
 
+.message-box:hover {
+    border: 1px solid #88c701;
+    box-shadow: 0px 0px 0px 3px #38B0001A;
+
+}
+
+.bg-green {
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F8EC 100%);
+}
+
+.lh-md-42 {
+    line-height: 31.3px;
+}
+
+.max-w-161 {
+    max-width: 161px;
+}
+
 @media (min-width:768px) {
     .gap-28 {
-        gap: 24px;
+        gap: 22px;
+    }
+
+    .lh-md-42 {
+        line-height: 42.3px;
     }
 }
 
@@ -619,6 +641,10 @@ ul {
 
     .position_xl_absolute {
         position: absolute;
+    }
+
+    .customer-card {
+        padding: 41px 13px 49px 24px;
     }
 
     .text-24 {
@@ -644,7 +670,7 @@ ul {
     }
 
     .gap-28 {
-        gap: 24px;
+        gap: 28px;
     }
 
     .mt-12 {
@@ -686,9 +712,8 @@ ul {
         padding-bottom: 70px;
     }
 
-    .h-85 {
-        height: unset;
-        object-fit: cover;
+    .mt-22 {
+        margin-top: 28px;
     }
 
     .pb-59 {
@@ -701,6 +726,10 @@ ul {
         stroke: var(--color-white);
         font-size: 65px;
         font-weight: 500;
+    }
+
+    .mt-14 {
+        margin-top: 44px;
     }
 }
 
@@ -727,11 +756,9 @@ ul {
         padding-bottom: 94px;
     }
 
-    .h-70 {
-        height: unset;
-        object-fit: cover;
+    .mt-65 {
+        margin-top: 65px;
     }
-
 }
 
 @media (max-width: 1040px) {
